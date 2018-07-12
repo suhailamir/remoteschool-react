@@ -1,13 +1,6 @@
 {
-  "presets": [
-    "react",
-    [ "env", {
-      "targets": {
-        "browsers": "> 2%"
-      }
-    }]
-  ],
-
+   "presets": ["stage-2", "react"],
+  "retainLines": true,
   "plugins": [
     "react-hot-loader/babel"
   ]
